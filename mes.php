@@ -209,11 +209,11 @@ main footer textarea::placeholder{
 </style>
 <body onload="show_func()">
 <div class="conversation">
-    <img src="facebook.png" class="facebook">
-    <img src="message.png" class="messager">
-    <img src="user.png" class="user">
-    <img src="static.png" class="static">
-    <img src="communications.png" class="communication">
+    <img src="img/facebook.png" class="facebook">
+    <img src="img/message.png" class="messager">
+    <img src="img/user.png" class="user">
+    <img src="img/static.png" class="static">
+    <img src="img/communications.png" class="communication">
     </div>
     <div class="conversation-list">
         <h2 style="text-align: center;">Conversation</h2>

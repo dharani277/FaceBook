@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e3677;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 50px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .signup {
+            background-color: #261581;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .signup:hover {
+            background-color: #261581;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Create Account</h2>
+    <form id="registration-form" action="insert.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="username" placeholder="Enter your name" required >
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email address" required >
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required >
+        <input type="submit" value="Sign Up" class="signup"/>
+        <p style="text-align: center;">Already have an account? <span style="color:rgb(37, 37, 196)"><a href="login.html">Login</a></span></p>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    margin-top: 100px;
+    background-color: rgb(11, 11, 105);
+}
+.container{
+    width: 25%;
+    background-color:white;
+    border-radius: 20px;
+    margin: auto;
+}
+.title{
+    padding: 30px;
+    text-align: center; 
+}
+
+.box{
+    display: block;
+    width: 75%;
+    border: 2px solid rgb(180, 177, 177);
+    border-radius: 5px;
+    margin-left:30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.text{
+    font-size: 15px;
+    margin: 30px;
+}
+
+.signup{
+    width: 85%;
+    height: 40px;
+    background-color: rgb(11, 11, 105);
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+
+.connect{
+    width: 85%;
+    height: 40px;
+    background-color: rgb(11, 11, 105);
+    color: white;
+    margin-left:30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(11, 11, 105);
+    border-radius: 5px;
+}
+.delete{
+    width: 85%;
+    height: 40px;
+    background-color:rgb(139, 24, 24);
+    color: white;
+    margin-left:30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid rgb(139, 24, 24);
+    border-radius: 5px;
+}

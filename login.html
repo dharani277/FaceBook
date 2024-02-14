@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e3677;
+        }
+
+        .container {
+            max-width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input{
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .signup {
+            background-color: #261581;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .signup:hover {
+            background-color: #261581;
+        }
+        .remember-me {
+            display: flex;
+            align-items: center;
+        }
+
+        .remember-me input {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Login to Your Account</h2>
+        <form id="login-form" action="login.php" method="post">
+            <label for="email">Email</label>
+            <input type="email" name="email" required placeholder="Email address">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" required placeholder="Password">
+
+            <div class="remember-me">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </div>
+            <input type="submit" value="Login" class="signup">
+            <!-- <button onclick="window.location.href='integration.html'" type="button" style="color: white;">Login</button> -->
+            <p style="text-align: center;">New to MyApp? <span style="color:rgb(37, 37, 196)"><a href="index.html">Sign Up</a></span></p>
+
+        </form>
+    </div>
+</body>
+</html>
